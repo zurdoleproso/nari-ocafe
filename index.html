@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina web Nariño café">
+    <title>Nariño</title>
+
+    <!--PREFETCH-->
+    <link rel="prefetch" href="nosotros.html" as="document">
+    
+   
+
+    
+    <!--PRELOAD-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">NARIÑO<span class="logo__bold">Café</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+            
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog1.jpg" alt="imagen blog">
+                    </picture>
+                    
+                </div>
+
+                <div class="entrada__contenido">
+                        <h4 class="no-margin">Tipos de Granos de Café</h4>
+                        <a>El café es la bebida que se obtiene a partir de los granos tostados y molidos de los frutos de la planta del café (cafeto); es altamente estimulante por su contenido de cafeína,1​ una sustancia psicoactiva.2​ Este producto es uno de los más comercializados del mundo y una de las tres bebidas más consumidas del mundo.</a>
+                        <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+
+            </article>
+
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog2.jpg" alt="imagen blog">
+                    </picture>
+                    
+                </div>
+                <div class="entrada__contenido">
+                        <h4 class="no-margin">Deliciosas Recetas de Café</h4>
+                        <a>Preparar un café que emocione incluso al cafetero más exigente es cuestión de, primero, asegurarse de que hay una cafetera italiana (o moka) en casa y, segundo, aceptar que no se puede hacer todo de una vez.</a>
+                        <a href="entradadeliciosa.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog3.jpg" alt="imagen blog">
+                    </picture>
+                        
+                </div>
+                <div class="entrada__contenido">
+                        <h4 class="no-margin">Beneficios del Café</h4>
+                        <a>Aunque durante muchos años fue estigmatizado y asociado con algunas enfermedades, los beneficios del café se han confirmado en estudios científicos de todo el mundo en los últimos 20 años. Hoy, hasta los cardiólogos se lo recomiendan a sus pacientes, algo impensado en otras épocas. </a>
+                        <a href="entradabeneficio.html" class="boton boton--primario">Leer Entrada</a>
+                       
+                </div>
+
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Nuestro Cursos y Talleres</h3>
+
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Técnicas de Extracción de Café</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gractis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="informacion.html" class="boton boton--secundario">Mas Información sobre nuestros cursos</a>
+
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 Recetas de Café para Principiantes</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gractis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="informacion.html" class="boton boton--secundario">Mas Información</a>
+
+                </li>
+
+            </ul>
+        </aside>     
+                
+           
+    </div>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+    
+    
+    
+</body>
+</html>
